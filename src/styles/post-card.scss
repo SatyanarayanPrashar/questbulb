@@ -1,0 +1,55 @@
+.post-card-out-box{
+    width: 70vh;
+    border: solid 1px #CFCFCF;
+    border-radius: 11px;
+    margin-top: 10px;
+    background-color: white;
+    padding: 11px;
+}
+
+.post-top-title{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(40, 40, 40);
+    cursor: pointer;
+}
+.post-top-description{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.post-bottom-actionbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.post-bottom-actionbar-left-grp{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    img{
+        border-radius: 11rem;
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    .post-user-name{
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-left: 10px;
+        color: rgb(39, 39, 39);
+    }
+}
+.post-bottom-actionbar-right-grp{
+    display: flex;
+    align-items: center;
+}
+
+.post-action-bttns{
+    margin-right: 10px;
+}
+.post-action-bttns:hover{
+    margin-right: 10px;
+    color: blue;
+    cursor: pointer;
+}
