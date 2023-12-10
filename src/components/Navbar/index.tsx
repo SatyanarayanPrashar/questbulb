@@ -9,8 +9,8 @@ const Index = () => {
                 <div className="nav-bttn">QuestBulb</div> 
             </div>
             <div className="nav-bttn-grp-right">
-                <div className="nav-bttn">Home</div> 
-                <div className="nav-bttn">Contact</div> 
+                <div className="nav-bttn">Profile</div> 
+
             </div>
         </div>
     )

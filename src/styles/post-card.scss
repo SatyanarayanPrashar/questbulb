@@ -1,5 +1,5 @@
 .post-card-out-box{
-    width: 70vh;
+    width: 35rem;
     border: solid 1px #CFCFCF;
     border-radius: 11px;
     margin-top: 10px;
@@ -46,10 +46,13 @@
 }
 
 .post-action-bttns{
+    border: solid 1px #CFCFCF;
+    border-radius: 11px;
+    padding: 5px 15px;
     margin-right: 10px;
 }
 .post-action-bttns:hover{
     margin-right: 10px;
-    color: blue;
+    background-color: rgba(181, 219, 253, 0.11);
     cursor: pointer;
 }
